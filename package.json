@@ -1,0 +1,24 @@
+{
+  "name": "swagger2xsd",
+  "version": "0.0.1",
+  "description": "Simple Swagger file to XSD",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "swagger2xsd"
+  },
+  "keywords": [
+    "json",
+    "xsd"
+  ],
+  "author": "fudgel",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mocha": "^7.1.1",
+    "yamljs": "^0.3.0"
+  }
+}
